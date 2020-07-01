@@ -24,12 +24,12 @@ class DownloadingDMReportFiles:
             chromeOptions.add_argument("--headless")
         self.__driver = webdriver.Chrome(executable_path=chromedriver, chrome_options=chromeOptions, )
         self.__driver.get(
-            'https://de.dm-extranet.com/Extranet/servlet/mstrWeb?Project=dm-Extranet&evt=2001&Server=mstr-extranet-01.lxprod.ka.de.dm-drogeriemarkt.com&folderID=02B0C2754E96E664379CB4ADFCECFBEE')
+            'https://de.dm-extranet.com/')
 
         user = self.__driver.find_element_by_name('UserName')
-        user.send_keys('D0L05788')
+        user.send_keys('xx')
         p = self.__driver.find_element_by_name('Password')
-        p.send_keys('Welcome16ce')
+        p.send_keys('xx')
 
         print("click on button_element_submit")
         button_element_submit = self.__driver.find_element_by_id('submitButton')
