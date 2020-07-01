@@ -8,7 +8,7 @@ budni - skrypt automatyzujący pobieranie z systemu SAP danych CSV/xlsx przetwar
 
 DM - skrypt automatyzujący pobieranie z systemu SAP danych CSV/xlsx przetwarzanie pliku oraz wysyłka na FTP
 
-mueller - skrypt automatyzujący pobieranie z systemu SAP danych CSV/xlsx przetwarzanie pliku oraz wysyłka na FTP
+mueller - skrypt automatyzujący. Pobiera plik z maila wypoakwuje go zmienia nazwęi wysyła na FTP.
 
 ftp - moduł do łączenia z FTP. Wspólny moduł dla wszystkich skryptów.
 
