@@ -35,7 +35,7 @@ class SqlQuery():
         c = Query()
         c.Print()
 
-        # DBcursor = PfizerDB.cursor()
+        # DBcursor = DB.cursor()
         # DBcursor.execute(self.insertToPharmacies)
 
         print("wykonano Query ")
