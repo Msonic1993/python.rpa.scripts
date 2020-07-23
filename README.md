@@ -1,17 +1,16 @@
 # python.rpa.scripts
 These are my scripts that automate working with data
 
+Description of the folder contents:
 
-Opis zawartości folderów:
+budni - a script that automates the download of CSV / xlsx data from the SAP system, file processing and sending to FTP
 
-budni - skrypt automatyzujący pobieranie z systemu SAP danych CSV/xlsx przetwarzanie pliku oraz wysyłka na FTP
+DM - a script that automates the download of CSV / xlsx data from the SAP system, file processing and sending to FTP
 
-DM - skrypt automatyzujący pobieranie z systemu SAP danych CSV/xlsx przetwarzanie pliku oraz wysyłka na FTP
+mueller - automation script. Download the file from the email, extract it, rename it, and send it to FTP.
 
-mueller - skrypt automatyzujący. Pobiera plik z maila wypoakwuje go zmienia nazwęi wysyła na FTP.
+ftp - module for connecting to FTP. Common module for all scripts.
 
-ftp - moduł do łączenia z FTP. Wspólny moduł dla wszystkich skryptów.
+Unmapedpharmacy - downloads the file from ftp and compares it with the table in the database. Saves differences to the csv file and creates and inserts into the mysql database
 
-Unmapedpharmacy - pobiera plik z ftp i porównuje go z tabelą w bazie. Zapisuje różnice w pliku csv oraz tworzy i wykonuje insert do bazy mysql
-
-exportdata - wykonuje query na bazie mysql zapisuje dane do csv i wysyła maila z tym plikiem.
+exportdata - executes a query based on mysql, saves data to csv and sends an email with this file.
